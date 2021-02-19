@@ -1,2 +1,19 @@
-# leetcode-solutions
-My leetcode solutions
+# Leetcode solutions in JavaScript with unit tests in Jest
+
+### Список решенных задач (уровень easy)
+- [x] Two Sum [🔗](https://leetcode.com/problems/two-sum)
+- [x] Reverse Integer [🔗](https://leetcode.com/problems/reverse-integer)
+- [x] Palindrome Number [🔗](https://leetcode.com/problems/palindrome-number)
+- [x] Roman to Integer [🔗](https://leetcode.com/problems/roman-to-integer)
+- [x] Longest Common Prefix [🔗](https://leetcode.com/problems/longest-common-prefix)
+- [x] Valid Parentheses [🔗](https://leetcode.com/problems/valid-parentheses)
+- [x] Merge Two Sorted Lists [🔗](https://leetcode.com/problems/merge-two-sorted-lists)
+- [x] Maximum Subarray [🔗](https://leetcode.com/problems/maximum-subarray)
+- [x] Climbing Stairs [🔗](https://leetcode.com/problems/climbing-stairs)
+- [x] Best Time to Buy and Sell Stock [🔗](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+- [x] Single Number [🔗](https://leetcode.com/problems/single-number)
+- [x] Linked List Cycle [🔗](https://leetcode.com/problems/linked-list-cycle)
+- [x] Contains Duplicate [🔗](https://leetcode.com/problems/contains-duplicate)
+- [x] Missing Number [🔗](https://leetcode.com/problems/missing-number)
+- [x] Range Sum Query - Immutable [🔗](https://leetcode.com/problems/range-sum-query-immutable)
+- [x] Find All Numbers Disappeared in an Array [🔗](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)

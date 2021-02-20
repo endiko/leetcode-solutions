@@ -131,20 +131,3 @@ var isValid = function(s) {
 }
 
 module.exports = isValid
-
-/*
-console.log(isValid('()')) // true
-console.log(isValid('()[]{}')) // true
-console.log(isValid('(]')) // false
-console.log(isValid('([)]')) // false
-console.log(isValid('{[]}')) // true
-console.log(isValid('')) // false
-console.log(isValid('}')) // false
-console.log(isValid('(')) // false
-console.log(isValid('{[[{()[]{}}]]}')) // true
-console.log(isValid('{[[{()[]{}}]]}{}')) // true
-
-console.log(isValid("(){}}{")) // false
-
-console.log(isValid("([}}])")) // false
-*/

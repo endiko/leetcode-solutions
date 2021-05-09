@@ -7,23 +7,37 @@
  * Follow up: Could you implement a solution with a linear runtime complexity and without using extra memory?
  */
 var singleNumber = function(nums) {
-  const hash = new Map();
+  const unique = new Set();
+  let uSum = 0;
+  let sum = 0;
 
   nums.forEach(num => {
-    if(hash.has(num)) {
-      hash.set(num, hash.get(num) + 1)
-    } else {
-      hash.set(num, 1)
+    if(!unique.has(num)) {
+      unique.add(num);
+      uSum += num;
     }
+
+    sum += num;
   });
 
-  for(let key of hash.keys()) {
-    if (hash.get(key) === 1) {
-      return key;
-    }
-  }
+  return uSum * 2 - sum;
+  // const hash = new Map();
 
-  return 0;
+  // nums.forEach(num => {
+  //   if(hash.has(num)) {
+  //     hash.set(num, hash.get(num) + 1)
+  //   } else {
+  //     hash.set(num, 1)
+  //   }
+  // });
+
+  // for(let key of hash.keys()) {
+  //   if (hash.get(key) === 1) {
+  //     return key;
+  //   }
+  // }
+
+  // return 0;
 };
 
 module.exports = singleNumber
